@@ -1,5 +1,9 @@
 # Changes to normalize.css
 
+### 1.0.1 (May 24, 2018)
+
+* Fix `-webkit-tap-highlight-color` into form element and link element.
+
 ### 1.0.0 (May 22, 2018)
 
 (Fork from [normalize.css](https://github.com/necolas/normalize.css) and create project.

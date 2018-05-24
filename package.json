@@ -1,6 +1,6 @@
 {
   "name": "webkit-normalize.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CSS resets, optimized for mobile browser(webkit engine) and local zh_CN specially.",
   "keywords": ["css reset", "css normalize", "webkit", "style"],
   "main": "normalize.css",
