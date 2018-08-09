@@ -8,11 +8,13 @@
  * 1. Correct the line height in all browsers. [附：行高调整成20px(会被PostCSS的autoprefixer转换成rem单位)]
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  * 注1： 这里是line-height 20px，但是如果直接用px单位的话，会被postcss-pxtorem转换成rem单位，因为这是根元素比较特殊，所以换成了百分比
+ * 3. 取消支持双击缩放手势，好处是没有了该非标准手势引起的点击事件的延迟。
  */
 
 html {
   line-height: 143%; /* 1 ; 注1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  touch-action: manipulation; /* 3 */
 }
 
 /* Sections

@@ -1,5 +1,8 @@
 # Changes to normalize.css
 
+### 1.1.0 (Aug 9, 2018)
+* Add default touch action `manipulation` from tag `html`.
+
 ### 1.0.1 (May 24, 2018)
 
 * Fix `-webkit-tap-highlight-color` into form element and link element.
