@@ -27,7 +27,7 @@ html {
 
 body {
   margin: 0; /* 1 */
-  font-family: "SF Pro SC", "SF Pro Text", "PingFang SC", -apple-system, "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif; /* 2 */
+  font-family: system-ui, -apple-system, "SF Pro SC", "SF Pro Text", "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif; /* 2 */
   -webkit-font-smoothing: antialiased;
 }
 

@@ -1,5 +1,8 @@
 # Changes to normalize.css
 
+### 1.1.1 (May 25， 2022)
+* prefer `system-ui, -apple-system` in font family stack.
+
 ### 1.1.0 (Aug 9, 2018)
 * Add default touch action `manipulation` from tag `html`.
 
